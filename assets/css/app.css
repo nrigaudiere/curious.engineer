@@ -5,4 +5,47 @@
 
 body {
 	font-family: 'Oswald';
+	font-size:18px;
+	font-weight: 100;
+	color: #000;
+
+	background: url(../img/background.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+a {
+	color: #000;
+	text-decoration: none;
+}
+
+li {
+	list-style-type: none;
+}
+
+
+.home {
+	text-align: center;
+}
+
+.home-title {
+	font-size: 1.5em;
+	margin-top:20px;
+}
+
+.home-subtitle {
+	font-size: 0.9em;
+}
+
+.home-menu-wrapper {
+	border-top: 1px solid #6F7275;
+	margin-top: 15px;
+}
+
+.home-menu {
+	font-size: 1.5em;
+	line-height:1.2;
+	margin-top: 10px;
 }
