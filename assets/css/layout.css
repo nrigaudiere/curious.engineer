@@ -1,0 +1,39 @@
+/* #### Mobile Phones Portrait #### */
+@media screen and (max-device-width: 480px) and (orientation: portrait){
+  /* some CSS here */
+}$
+
+/* #### Mobile Phones Landscape #### */
+@media screen and (max-device-width: 640px) and (orientation: landscape){
+  /* some CSS here */
+}
+
+
+/* #### Mobile Phones Portrait or Landscape #### */
+@media screen and (max-device-width: 640px){
+	
+	.home-title {
+		border-top: 1px solid #6F7275;	
+	}
+
+	.home-menu-mobile {
+		display:block;
+	}
+
+	.home-menu-wrapper {
+		display:none;
+	}
+}
+
+
+
+
+/* #### Tablets Portrait or Landscape #### */
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px){
+  /* some CSS here */
+}
+
+/* #### Desktops #### */
+@media screen and (min-width: 1024px){
+  /* some CSS here */
+}
