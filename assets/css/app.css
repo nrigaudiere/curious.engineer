@@ -1,11 +1,17 @@
 @font-face {
-	  font-family: 'Oswald';
-	  src: url('fonts/Oswald-Light.ttf')  format('truetype'), /* Safari, Android, iOS */
+	  font-family: 'Montepetrum regular';
+	  src: url('fonts/Montepetrum regular.ttf')  format('truetype');/* Safari, Android, iOS */
 }
 
+@font-face {
+	  font-family: 'Montepetrum bold';
+	  src: url('fonts/Montepetrum bold.ttf')  format('truetype'); /* Safari, Android, iOS */
+}
+
+
 body {
-	font-family: 'Oswald';
-	font-size:18px;
+	font-family: 'Montepetrum bold';
+	font-size:22px;
 	font-weight: 100;
 	color: #000;
 
@@ -36,16 +42,17 @@ li {
 }
 
 .home-subtitle {
-	font-size: 0.9em;
+	font-size: 1.2em;
+	font-family: 'Montepetrum regular';
 }
 
 .home-menu-wrapper {
 	border-top: 1px solid #6F7275;
-	margin-top: 15px;
+	margin-top: 10px;
 }
 
 .home-menu {
 	font-size: 1.5em;
-	line-height:1.2;
+	line-height:1.1;
 	margin-top: 10px;
 }
