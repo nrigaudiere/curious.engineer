@@ -14,15 +14,19 @@
 	
 	.home-title {
 		border-top: 1px solid #6F7275;	
+		padding-top:20px;
+		margin-top: 0px;
 	}
 
 	.home-menu-mobile {
 		display:block;
+		margin-top: 10px;
+    	margin-bottom: 10px;
 	}
 
-	.home-menu-wrapper {
+/*	.home-menu-wrapper {
 		display:none;
-	}
+	}*/
 }
 
 

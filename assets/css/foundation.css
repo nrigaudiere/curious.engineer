@@ -376,7 +376,7 @@ body {
   font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
   line-height: 1.5;
-  color: #222222;
+  color: #0a0a0a;
   background: #fefefe;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
@@ -418,7 +418,7 @@ button {
   line-height: 1; }
 
 .row {
-  max-width: 62.5remrem;
+  max-width: 75rem;
   margin-left: auto;
   margin-right: auto; }
   .row::before, .row::after {
@@ -1114,7 +1114,7 @@ h6 {
   font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
-  color: #222222;
+  color: inherit;
   text-rendering: optimizeLegibility;
   margin-top: 0;
   margin-bottom: 0.5rem;
@@ -1161,17 +1161,17 @@ h6 {
     font-size: 1rem; } }
 
 a {
-  color: #2ba6cb;
+  color: #2199e8;
   text-decoration: none;
   line-height: inherit;
   cursor: pointer; }
   a:hover, a:focus {
-    color: #258faf; }
+    color: #1585cf; }
   a img {
     border: 0; }
 
 hr {
-  max-width: 62.5remrem;
+  max-width: 75rem;
   height: 0;
   border-top: 0;
   border-bottom: 1px solid #cacaca;
@@ -1222,7 +1222,7 @@ cite {
     content: '\2014 \0020'; }
 
 abbr {
-  color: #222222;
+  color: #0a0a0a;
   cursor: help;
   border-bottom: 1px dotted #0a0a0a; }
 
@@ -1377,12 +1377,12 @@ kbd {
   padding: 0.85em 1em;
   margin: 0 1rem 1rem 0;
   font-size: 0.9rem;
-  background: #2ba6cb;
+  background: #2199e8;
   color: #fff; }
   [data-whatinput="mouse"] .button {
     outline: 0; }
   .button:hover, .button:focus {
-    background: #258dad;
+    background: #1583cc;
     color: #fff; }
   .button.tiny {
     font-size: 0.6rem; }
@@ -1426,13 +1426,13 @@ kbd {
       background: #cc8b00;
       color: #fff; }
   .button.hollow {
-    border: 1px solid #2ba6cb;
-    color: #2ba6cb; }
+    border: 1px solid #2199e8;
+    color: #2199e8; }
     .button.hollow, .button.hollow:hover, .button.hollow:focus {
       background: transparent; }
     .button.hollow:hover, .button.hollow:focus {
-      border-color: #165366;
-      color: #165366; }
+      border-color: #0c4d78;
+      color: #0c4d78; }
     .button.hollow.primary {
       border: 1px solid #2199e8;
       color: #2199e8; }
@@ -1646,11 +1646,11 @@ select {
     height: auto; }
 
 .is-invalid-input:not(:focus) {
-  background-color: rgba(198, 15, 19, 0.1);
-  border-color: #c60f13; }
+  background-color: rgba(236, 88, 64, 0.1);
+  border-color: #ec5840; }
 
 .is-invalid-label {
-  color: #c60f13; }
+  color: #ec5840; }
 
 .form-error {
   display: none;
@@ -1658,7 +1658,7 @@ select {
   margin-bottom: 1rem;
   font-size: 0.75rem;
   font-weight: bold;
-  color: #c60f13; }
+  color: #ec5840; }
   .form-error.is-visible {
     display: block; }
 
@@ -1777,7 +1777,7 @@ select {
   padding: 1.25rem 1rem;
   line-height: 1;
   font-size: 0.75rem;
-  color: #2ba6cb;
+  color: #2199e8;
   position: relative;
   border-bottom: 1px solid #e6e6e6; }
   .accordion-title:hover, .accordion-title:focus {
@@ -1806,7 +1806,7 @@ select {
     width: 0;
     height: 0;
     border: inset 6px;
-    border-color: #2ba6cb transparent transparent;
+    border-color: #2199e8 transparent transparent;
     border-top-style: solid;
     position: absolute;
     top: 50%;
@@ -1828,7 +1828,7 @@ select {
   font-size: 0.6rem;
   text-align: center;
   border-radius: 50%;
-  background: #2ba6cb;
+  background: #2199e8;
   color: #fefefe; }
   .badge.secondary {
     background: #777;
@@ -1865,7 +1865,7 @@ select {
       top: 1px;
       opacity: 1; }
   .breadcrumbs a {
-    color: #2ba6cb; }
+    color: #2199e8; }
     .breadcrumbs a:hover {
       text-decoration: underline; }
   .breadcrumbs .disabled {
@@ -2039,7 +2039,7 @@ select {
     width: 0;
     height: 0;
     border: inset 6px;
-    border-color: transparent transparent transparent #2ba6cb;
+    border-color: transparent transparent transparent #2199e8;
     border-left-style: solid;
     position: absolute;
     top: 50%;
@@ -2052,7 +2052,7 @@ select {
   width: 0;
   height: 0;
   border: inset 6px;
-  border-color: transparent #2ba6cb transparent transparent;
+  border-color: transparent #2199e8 transparent transparent;
   border-right-style: solid;
   float: left;
   margin-right: 0.75rem;
@@ -2096,7 +2096,7 @@ select {
     width: 0;
     height: 0;
     border: inset 5px;
-    border-color: #2ba6cb transparent transparent;
+    border-color: #2199e8 transparent transparent;
     border-top-style: solid;
     position: absolute;
     top: 12px;
@@ -2107,7 +2107,7 @@ select {
     width: 0;
     height: 0;
     border: inset 5px;
-    border-color: transparent #2ba6cb transparent transparent;
+    border-color: transparent #2199e8 transparent transparent;
     border-right-style: solid;
     float: left;
     margin-left: 0;
@@ -2118,7 +2118,7 @@ select {
     width: 0;
     height: 0;
     border: inset 5px;
-    border-color: transparent transparent transparent #2ba6cb;
+    border-color: transparent transparent transparent #2199e8;
     border-left-style: solid; }
   .dropdown.menu .has-submenu.is-left-arrow.opens-inner .submenu {
     right: 0;
@@ -2193,7 +2193,7 @@ select {
   white-space: nowrap;
   cursor: default;
   border-radius: 0;
-  background: #2ba6cb;
+  background: #2199e8;
   color: #fefefe; }
   .label.secondary {
     background: #777;
@@ -2514,7 +2514,7 @@ body {
     margin-left: 0.75rem; }
   .pagination .current {
     padding: 0.1875rem 0.625rem;
-    background: #2ba6cb;
+    background: #2199e8;
     color: #fefefe;
     cursor: default; }
   .pagination .disabled {
@@ -2549,7 +2549,7 @@ body {
   display: block;
   width: 0%;
   height: 100%;
-  background-color: #2ba6cb;
+  background-color: #2199e8;
   border-radius: 0; }
   .progress-meter .progress-meter-text {
     position: absolute;
@@ -2602,7 +2602,7 @@ body {
   display: inline-block;
   width: 1.4rem;
   height: 1.4rem;
-  background-color: #2ba6cb;
+  background-color: #2199e8;
   transition: all 0.2s ease-in-out;
   -ms-touch-action: manipulation;
       touch-action: manipulation;
@@ -2610,7 +2610,7 @@ body {
   [data-whatinput="mouse"] .slider-handle {
     outline: 0; }
   .slider-handle:hover {
-    background-color: #258dad; }
+    background-color: #1583cc; }
   .slider-handle.is-dragging {
     transition: all 0s linear; }
 
@@ -2699,7 +2699,7 @@ body {
   @media screen and (min-width: 40em) {
     .reveal {
       width: 600px;
-      max-width: 62.5remrem; } }
+      max-width: 75rem; } }
   .reveal.collapse {
     padding: 0; }
   @media screen and (min-width: 40em) {
@@ -2710,15 +2710,15 @@ body {
   @media screen and (min-width: 40em) {
     .reveal.tiny {
       width: 30%;
-      max-width: 62.5remrem; } }
+      max-width: 75rem; } }
   @media screen and (min-width: 40em) {
     .reveal.small {
       width: 50%;
-      max-width: 62.5remrem; } }
+      max-width: 75rem; } }
   @media screen and (min-width: 40em) {
     .reveal.large {
       width: 90%;
-      max-width: 62.5remrem; } }
+      max-width: 75rem; } }
   .reveal.full {
     top: 0;
     left: 0;
@@ -2771,7 +2771,7 @@ body {
     -webkit-transform: translate3d(0, 0, 0);
             transform: translate3d(0, 0, 0); }
   input:checked ~ .switch-paddle {
-    background: #2ba6cb; }
+    background: #2199e8; }
     input:checked ~ .switch-paddle::after {
       left: 2.25rem; }
   [data-whatinput="mouse"] input:focus ~ .switch-paddle {
@@ -2845,7 +2845,7 @@ table {
   thead,
   tfoot {
     background: #f8f8f8;
-    color: #222222; }
+    color: #0a0a0a; }
     thead tr,
     tfoot tr {
       background: transparent; }
@@ -2904,11 +2904,11 @@ table.hover tr:nth-of-type(even):hover {
     float: none;
     display: block; }
   .tabs.primary {
-    background: #2ba6cb; }
+    background: #2199e8; }
     .tabs.primary > li > a {
       color: #fefefe; }
       .tabs.primary > li > a:hover, .tabs.primary > li > a:focus {
-        background: #299ec1; }
+        background: #1893e4; }
 
 .tabs-title {
   float: left; }
@@ -2917,7 +2917,7 @@ table.hover tr:nth-of-type(even):hover {
     padding: 1.25rem 1.5rem;
     line-height: 1;
     font-size: 12px;
-    color: #2ba6cb; }
+    color: #2199e8; }
     .tabs-title > a:hover, .tabs-title > a:focus, .tabs-title > a[aria-selected="true"] {
       background: #e6e6e6; }
 
@@ -2946,7 +2946,7 @@ table.hover tr:nth-of-type(even):hover {
   border-radius: 0;
   margin-bottom: 1rem; }
   .thumbnail:hover, .thumbnail:focus {
-    box-shadow: 0 0 6px 1px rgba(43, 166, 203, 0.5); }
+    box-shadow: 0 0 6px 1px rgba(33, 153, 232, 0.5); }
 
 .title-bar {
   background: #0a0a0a;
