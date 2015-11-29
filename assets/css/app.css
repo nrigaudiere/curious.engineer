@@ -80,6 +80,8 @@ li {
 	font-family: 'Montepetrum regular';
 }
 
+/* MENU */
+
 .home-menu-wrapper {
 	border-top: 1px solid #6F7275;
 	margin-top: 10px;
@@ -92,7 +94,7 @@ li {
 }
 
 
-.menu-overlay {
+#menu-overlay {
 	position: fixed;
     width: 100%;
     height: 100%;
@@ -102,6 +104,7 @@ li {
     z-index: 997;
 }
 
+
 .icon-bar {
 	display: block;
     width: 22px;
@@ -109,4 +112,48 @@ li {
     border-radius: 1px;
     background-color: #000;
     margin-top:4px;
+    
+}
+
+.icon-cross {
+	
+}
+
+
+.icon-cross:before,.icon-cross:after{
+    content:'';
+    position:absolute;
+    width: 22px;
+    height: 2px;
+    border-radius: 1px;
+    background-color: #000;
+    top:16px;
+    box-shadow:0 0 2px 0 #ccc;
+}
+
+.icon-cross:before{
+    -webkit-transform:rotate(45deg);
+    -moz-transform:rotate(45deg);
+    transform:rotate(45deg);
+    left:2px;
+}
+.icon-cross:after{
+    -webkit-transform:rotate(-45deg);
+    -moz-transform:rotate(-45deg);
+    transform:rotate(-45deg);
+    right:-24px;
+}
+
+
+
+.hidden {
+	visibility: hidden;
+}
+
+.visibile {
+	visibility: visible;
+}
+
+.show {
+	display:block;
 }
