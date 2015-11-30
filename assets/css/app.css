@@ -1,19 +1,20 @@
 @font-face {
-	  font-family: 'Montepetrum regular';
-	  src: url('fonts/Montepetrum regular.ttf')  format('truetype');/* Safari, Android, iOS */
+	  font-family: 'Generica';
+	  src: url('fonts/Generica.otf')  format('opentype');/* Safari, Android, iOS */
 }
 
 @font-face {
-	  font-family: 'Montepetrum bold';
-	  src: url('fonts/Montepetrum bold.ttf')  format('truetype'); /* Safari, Android, iOS */
+	  font-family: 'Generica bold';
+	  src: url('fonts/Generica Bold.otf')  format('opentype'); /* Safari, Android, iOS */
 }
 
 
 body {
-	font-family: 'Montepetrum bold';
-	font-size:22px;
+	font-family: 'Generica';
+	font-size:18px;
 	font-weight: 100;
-	color: #000;
+	/*color: #000;*/
+	color:rgb(60,60,60);
 
 	background: url(../img/background_nograin.jpg) no-repeat center center fixed;
 	-webkit-background-size: cover;
@@ -23,7 +24,7 @@ body {
 }
 
 a {
-	color: #000;
+	color:rgb(60,60,60);
 	text-decoration: none;
 }
 a:hover {
@@ -73,11 +74,11 @@ li {
 .home-title {
 	font-size: 1.5em;
 	margin-top:20px;
+	font-weight: 800;
 }
 
 .home-subtitle {
-	font-size: 1.2em;
-	font-family: 'Montepetrum regular';
+	font-size: 1.1em;
 }
 
 /* MENU */
@@ -88,9 +89,10 @@ li {
 }
 
 .home-menu {
-	font-size: 1.5em;
-	line-height:1.1;
+	font-size: 1.3em;
+	line-height:1.7;
 	margin-top: 10px;
+	font-weight:800;
 }
 
 
@@ -115,8 +117,13 @@ li {
     
 }
 
+
+#navbar-close {
+	z-index: 999;
+}
+
 .icon-cross {
-	
+	margin-right: 1px;
 }
 
 
@@ -127,7 +134,7 @@ li {
     height: 2px;
     border-radius: 1px;
     background-color: #000;
-    top:16px;
+    top:10px;
     box-shadow:0 0 2px 0 #ccc;
 }
 
@@ -135,14 +142,37 @@ li {
     -webkit-transform:rotate(45deg);
     -moz-transform:rotate(45deg);
     transform:rotate(45deg);
-    left:2px;
+    left:-1px;
 }
 .icon-cross:after{
     -webkit-transform:rotate(-45deg);
     -moz-transform:rotate(-45deg);
     transform:rotate(-45deg);
-    right:-24px;
+    right:-20px;
 }
+
+/* END MENU */
+
+
+/* SOCIALS*/
+
+.socials {
+	display:inline-block;
+	text-align: right;
+	margin-top:10px;
+}
+
+.socials img {
+	width:35px;
+	height:35px;
+	margin:5px;
+}
+.icons {
+	color:rgb(60,60,60);
+}
+
+/* END SOCIALS */
+
 
 
 
