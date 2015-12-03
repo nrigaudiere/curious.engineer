@@ -21,6 +21,7 @@
 
 	a, a:visited {
 		color:rgb(60,60,60) !important;
+		outline: none;
 		text-decoration: none;
 	}
 	a:hover {
@@ -81,12 +82,12 @@
 	width:100%;
 	height:100%;
 	
-	/*filter: blur(10px);
+/*	filter: blur(10px);
 	-webkit-filter: blur(10px);
 	-moz-filter: blur(10px);
 	-o-filter: blur(10px);
-	-ms-filter: blur(10px);
-	*/
+	-ms-filter: blur(10px);*/
+	
 	transition: all 0.5s ease;
 }
 
