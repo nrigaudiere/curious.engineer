@@ -14,9 +14,14 @@
 	
 	.home-title {
 		border-top: 1px solid #6F7275;	
-		padding-top:20px;
+		padding-top:40px;
 		margin-top: 0px;
 	}
+
+	.home-subtitle {
+		padding-top: 10px;
+	}
+
 	.home-menu-mobile {
 		display:block;
 		margin-top: 10px;
@@ -36,8 +41,38 @@
 	}
 
 	#nav-menu {
-		height:80%;
+		margin-top:50px;
+		height:75vh;
 	}
+
+	#nav-menu ul {
+		font-size: 1.5em;
+	    line-height: 1.7;
+	    font-weight: 800;
+	    text-align: center;
+	}
+
+	#nav-menu li {
+		list-style-type: none;
+	    margin: 15px 0px 0px 0px;
+	}
+
+	.menu-socials {
+		font-size: 1.5em;
+		text-align: center;
+	}
+
+	.menu-socials a {
+		margin:10px;
+	}
+
+
+	.about-img-wrapper {
+		margin-left:auto;
+		margin-right:auto;
+	}
+
+
 }
 
 
