@@ -32,7 +32,7 @@
 	}
 
 	a, a:visited {
-		color:rgb(60,60,60) !important;
+		color:rgb(60,60,60) ;
 		outline: none;
 		text-decoration: none;
 	}
@@ -279,7 +279,7 @@
 /* MENU */
 
 	.menu-current {
-		color:#3B4824;
+		color:#3B4824 !important;
 	}
 
 	.home-menu-wrapper {
@@ -313,12 +313,12 @@
 	    height: 100%;
 	    top: 0;
 	    left: 0;
-	    background: rgba(13,13,13,0.9);
+	    background: rgba(13,13,13,0.95);
 	    z-index: 997;
 	}
 
 
-	.icon-bar {
+	.menu-bar {
 		display: block;
 	    width: 22px;
 	    height: 2px;
@@ -328,38 +328,37 @@
 	    
 	}
 
-
 	#navbar-close {
 		z-index: 999;
 	}
 
-	.icon-cross {
+	.menu-cross {
 		margin-right: 1px;
 	}
 
 
-	.icon-cross:before,.icon-cross:after{
+	.menu-cross:before,.menu-cross:after{
 	    content:'';
 	    position:absolute;
 	    width: 22px;
 	    height: 2px;
 	    border-radius: 1px;
 	    background-color: #000;
-	    top:10px;
+	    top:19px;
 	    box-shadow:0 0 2px 0 #ccc;
 	}
 
-	.icon-cross:before{
+	.menu-cross:before{
 	    -webkit-transform:rotate(45deg);
 	    -moz-transform:rotate(45deg);
 	    transform:rotate(45deg);
-	    left:-1px;
+	    right:14px;
 	}
-	.icon-cross:after{
+	.menu-cross:after{
 	    -webkit-transform:rotate(-45deg);
 	    -moz-transform:rotate(-45deg);
 	    transform:rotate(-45deg);
-	    right:-20px;
+	    right:14px;
 	}
 
 /* END MENU */

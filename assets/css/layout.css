@@ -17,16 +17,27 @@
 		padding-top:20px;
 		margin-top: 0px;
 	}
-
 	.home-menu-mobile {
 		display:block;
 		margin-top: 10px;
     	margin-bottom: 10px;
 	}
 
-/*	.home-menu-wrapper {
+	.page-title {
+		font-size:2em;
+	}
+
+	.page-subtitle {
+		font-size: 1.3em;
+	}
+
+	.socials {
 		display:none;
-	}*/
+	}
+
+	#nav-menu {
+		height:80%;
+	}
 }
 
 
