@@ -21,14 +21,16 @@
 	<link rel="icon" type="image/png" sizes="16x16" href="../assets/img/favicon/favicon-16x16.png">
 	<link rel="manifest" href="../assets/img/favicon/manifest.json">
 
+	<!-- CSS -->
 	<link rel="stylesheet" href="../assets/css/foundation.min.css" />
 	<link rel="stylesheet" href="../assets/css/app.css" />
+	<link rel="stylesheet" href="../assets/css/tiles.css" />
 	<link rel="stylesheet" href="../assets/css/layout.css" />
 	<link rel="stylesheet" href="../assets/css/animate.css" />
 
-	<link rel="stylesheet" type="text/css" href="assets/fonts/font-awesome-4.3.0/css/font-awesome.min.css" />
-	<link rel="stylesheet" type="text/css" href="assets/css/style2.css" />
-	<script src="assets/js/modernizr-custom.js"></script>
+	<!-- FONTS -->
+	<link rel="stylesheet" type="text/css" href="../assets/fonts/font-awesome/css/font-awesome.min.css" />
+
 </head>
 <body class="electronically">
 	<div class="wrapper">
@@ -87,27 +89,26 @@
 		<div class="content">
 			<div class="grid">
 				<div class="grid__item" data-size="1280x857">
-					<a href="assets/img/original/6.jpg" class="img-wrap"><img src="assets/img/thumbs/6.jpg" alt="img06" />
+					<a href="assets/img/original/percephone.jpg" class="img-wrap"><img src="assets/img/thumbs/percephone_th.jpg" alt="percephone" /></a>
 						<div class="description description--grid">
-							<h3>Mother's Love</h3>
-							<p>Every time you drink a glass of milk or eat a piece of cheese, you harm a mother. Please go vegan. <em>&mdash; Gary L. Francione</em></p>
+							<h3>The Percephone</h3>
+							<p> I created this spherical musical controller as part of my school work with 4 other students. We wanted to give musicians a real opportunity to forget all they had learned, and only focus on expressiveness. It was used as a MIDI controller but was based on the Open Sound Control (OSC) protocol which was way better to use due to its unlimited data. Here is a short presentation video of the <a href="http://projects.ece.fr/project/ppe12-17" target="_blank">Percephone</a>. And here a video of it's usage <a href="https://www.youtube.com/watch?v=PU840dGStVg" target="_blank">on stage</a> by the band Maddalena </p>
 							<div class="details">
 								<ul>
-									<li><i class="icon icon-camera"></i><span>Canon PowerShot S95</span></li>
-									<li><i class="icon icon-focal_length"></i><span>22.5mm</span></li>
-									<li><i class="icon icon-aperture"></i><span>&fnof;/5.6</span></li>
-									<li><i class="icon icon-exposure_time"></i><span>1/1000</span></li>
-									<li><i class="icon icon-iso"></i><span>80</span></li>
+									<li><i class="icon icon-arduino"></i><span>Arduino</span></li>
+									<li><i class="icon icon-codesoft"></i><span>Max/MSP</span></li>
+									<li><i class="icon icon-audiosoft"></i><span>Ableton Live</span></li>
+									<li><i class="icon icon-network"></i><span>OSC</span></li>
 								</ul>
 							</div>
 						</div>
-					</a>
+					<!-- </a> -->
 				</div>
 				<div class="grid__item" data-size="1280x1280">
 					<a href="assets/img/original/7.jpg" class="img-wrap"><img src="assets/img/thumbs/7.jpg" alt="img07" />
 						<div class="description description--grid">
-							<h3>Silent Killer</h3>
-							<p>Cows’ milk protein may be the single most significant chemical carcinogen to which humans are exposed. <em>&mdash; T. Colin Campbell</em></p>
+							<h3>Percephone Sync</h3>
+							<p>Cows’ milk protein may be the single most significant chemical carcinogen to which humans are exposed. <a href="https://www.youtube.com/watch?v=sIVQq3nwuGI" title="">SYNC</a><em>&mdash; T. Colin Campbell</em></p>
 							<div class="details">
 								<ul>
 									<li><i class="icon icon-camera"></i><span>Canon PowerShot S95</span></li>
@@ -309,11 +310,15 @@
 
 	</div>
 
+	
 		<!-- /container -->
-	<script src="assets/js/imagesloaded.pkgd.min.js"></script>
-	<script src="assets/js/masonry.pkgd.min.js"></script>
-	<script src="assets/js/classie.js"></script>
-	<script src="assets/js/main.js"></script>
+		<!--  -->
+
+	<script src="../assets/js/tiles/modernizr-custom.js"></script>
+	<script src="../assets/js/tiles/imagesloaded.pkgd.min.js"></script>
+	<script src="../assets/js/tiles/masonry.pkgd.min.js"></script>
+	<script src="../assets/js/tiles/classie.js"></script>
+	<script src="../assets/js/tiles/main.js"></script>
 	<script>
 		(function() {
 			var support = { transitions: Modernizr.csstransitions },

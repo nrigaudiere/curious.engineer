@@ -1,3 +1,7 @@
+/* IMAGE TILES */
+
+
+
 .grid {
 	position: relative;
 	margin: 0 auto;
@@ -43,11 +47,11 @@
 	display: block;
 	max-width: 100%;
 	
-	filter: grayscale(100%);
-	-webkit-filter: grayscale(100%);
-	-moz-filter: grayscale(100%);
-	-o-filter: grayscale(100%);
-	-ms-filter: grayscale(100%);
+	filter: grayscale(80%);
+	-webkit-filter: grayscale(80%);
+	-moz-filter: grayscale(80%);
+	-o-filter: grayscale(80%);
+	-ms-filter: grayscale(80%);
 	
 	transition: all 0.5s ease;
 }
@@ -264,45 +268,7 @@
 	color: #909090;
 }
 
-.icon {
-	font-family: 'camera-icons';
-	font-weight: normal;
-	font-style: normal;
-	font-variant: normal;
-	line-height: 1;
-	display: inline-block;
-	vertical-align: middle;
-	text-transform: none;
-	/* Better Font Rendering =========== */
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-	speak: none;
-}
 
-.icon + span {
-	margin-left: 5px;
-	vertical-align: middle;
-}
-
-.icon-focal_length:before {
-	content: '\e600';
-}
-
-.icon-exposure_time:before {
-	content: '\e601';
-}
-
-.icon-iso:before {
-	content: '\e602';
-}
-
-.icon-camera:before {
-	content: '\e603';
-}
-
-.icon-aperture:before {
-	content: '\e604';
-}
 
 .details .icon {
 	margin-right: 5px;
@@ -318,14 +284,14 @@
 	padding: 0;
 	cursor: pointer;
 	vertical-align: top;
-	color: #6bd68a;
+	color: rgb(200,200,200);
 	border: none;
 	background: none;
 }
 
 .action:hover,
 .action:focus {
-	color: #6bd68a;
+	color: rgb(200,200,200);
 	outline: none;
 }
 
@@ -355,14 +321,4 @@
 	width: 0;
 	height: 0;
 	color: transparent;
-}
-
-@media screen and (max-width: 40em) {
-	.description--preview h3 {
-		font-size: 0.5em;
-	}
-	.description--preview p,
-	.details {
-		display: none;
-	}
 }
