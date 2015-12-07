@@ -31,6 +31,9 @@
 		color:rgb(60,60,60);
 	}
 
+	h1, h2, h3, h4, h5, h6 {
+		font-family: 'Generica';
+	}
 	a, a:visited {
 		color:rgb(60,60,60) ;
 		outline: none;
@@ -276,6 +279,30 @@
 
 /* END ABOUT */
 
+/* CONTACT */
+
+.contact-wrappers {
+	margin-top:50px;
+	text-align:center;
+	vertical-align: middle;
+	font-size: 1em;
+	
+	border: 1px solid #6F7275;
+	border-radius:2px;
+	
+	padding:20px;
+	font-weight: 800;
+
+	background-color: rgba(200,200,200,0.4);
+}
+
+.contact-wrappers .icon {
+	vertical-align: text-top;
+}
+
+/* END CONTACT */
+
+
 /* MENU */
 
 	.menu-current {
@@ -430,18 +457,25 @@
 .icon-volume:before {
   content: "\67";
 }
-.icon-audiosoft:before {
-  content: "\61";
+.icon-phone:before {
+  content: "\6b";
 }
-.icon-codesoft:before {
+.icon-mail:before {
+  content: "\6c";
+}
+.icon-audiosoft:before {
   content: "\68";
 }
-.icon-arduino:before {
+.icon-codesoft:before {
   content: "\69";
 }
-.icon-network:before {
+.icon-arduino:before {
   content: "\6a";
 }
+.icon-network:before {
+  content: "\61";
+}
+
 
 
 

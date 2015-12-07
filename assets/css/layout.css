@@ -70,6 +70,13 @@
 	.about-img-wrapper {
 		margin-left:auto;
 		margin-right:auto;
+		width:15em;
+		height:15em;
+	}
+
+	.about-img-wrapper img {
+		width:13em;
+		height:13em;
 	}
 
 
