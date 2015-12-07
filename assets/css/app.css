@@ -285,12 +285,12 @@
 	margin-top:50px;
 	text-align:center;
 	vertical-align: middle;
-	font-size: 1em;
+	font-size: 1.2em;
 	
 	border: 1px solid #6F7275;
 	border-radius:2px;
 	
-	padding:20px;
+	padding:60px 20px 60px 20px;
 	font-weight: 800;
 
 	background-color: rgba(200,200,200,0.4);
@@ -298,6 +298,7 @@
 
 .contact-wrappers .icon {
 	vertical-align: text-top;
+	padding-right:10px;
 }
 
 /* END CONTACT */
@@ -471,6 +472,9 @@
 }
 .icon-arduino:before {
   content: "\6a";
+}
+.icon-pin:before {
+  content: "\6d";
 }
 .icon-network:before {
   content: "\61";

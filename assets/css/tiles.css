@@ -141,6 +141,11 @@
 	color: #fff;
 }
 
+.description p {
+	text-align: justify;
+	padding-top:10px;
+}
+
 .js .description--grid {
 	display: none;
 }
@@ -272,7 +277,8 @@
 
 .details .icon {
 	margin-right: 5px;
-	color: #77d45b;
+	color: #829265;
+	vertical-align: sub;
 }
 
 
