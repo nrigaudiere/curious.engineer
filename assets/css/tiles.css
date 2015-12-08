@@ -224,6 +224,7 @@
 	font-size: 0.5em;
 	position: relative;
 	display: inline-block;
+	line-height: 1.25;
 	margin: 0 1em 0 0;
 	padding: 0.15em 0;
 	white-space: nowrap;
@@ -278,7 +279,8 @@
 .details .icon {
 	margin-right: 5px;
 	color: #829265;
-	vertical-align: sub;
+	vertical-align: text-top;
+	font-size: 1.5em;
 }
 
 

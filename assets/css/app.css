@@ -479,7 +479,18 @@
 .icon-network:before {
   content: "\61";
 }
-
+.icon-database:before {
+  content: "\6e";
+}
+.icon-frontend:before {
+  content: "\6f";
+}
+.icon-backend:before {
+  content: "\70";
+}
+.icon-animation:before {
+  content: "\71";
+}
 
 
 
