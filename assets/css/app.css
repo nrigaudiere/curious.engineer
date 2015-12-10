@@ -409,6 +409,19 @@
 		height:25px;
 		margin:15px 5px 0px 0px;
 	}
+
+	.socials-works {
+		display:inline-block;
+		text-align: right;
+		margin-top:10px;
+	}
+
+	.socials-works img {
+		width:25px;
+		height:25px;
+		margin:15px 5px 0px 0px;
+	}
+
 	.icons {
 		color:rgb(60,60,60);
 	}

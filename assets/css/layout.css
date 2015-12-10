@@ -58,6 +58,11 @@
 		display:none;
 	}
 
+	.socials-works {
+		margin-top:3px;
+		padding-right: 11px;
+	}
+
 	#nav-menu {
 		margin-top:50px;
 		height:75vh;
