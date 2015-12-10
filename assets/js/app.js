@@ -1,6 +1,6 @@
 $(document).foundation();
 
-var open = $('#navbar-open');
+var open  = $('#navbar-open');
 var close = $('#navbar-close');
 var menub = $('.menu-bar');
 var menuo = $('#menu-overlay');
@@ -14,5 +14,3 @@ close.click(function() {
 	menuo.removeClass("show animated fadeInRight").addClass("animated fadeOutRight" );
 	open.addClass( "show animated fadeIn" ).removeClass("fadeOut");
 });
-
-

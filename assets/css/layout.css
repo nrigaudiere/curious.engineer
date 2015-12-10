@@ -13,7 +13,7 @@
 @media screen and (max-device-width: 640px){
 	
 	.wrapper {
-		height:100%;
+		height:auto;
 	}
 	.home-title {
 		border-top: 1px solid #6F7275;	
@@ -98,12 +98,33 @@
 	}
 
 
+	/* TILES */
+	
+	.preview {
+		position:relative;
+		display:table-row;
+		width: 100%;
+	}
+
+	.description--preview {
+		position: relative;
+		float: left;
+		left:0;
+	}
+
+	.original {
+		position:absolute;
+		display: block;
+		top:6%;
+		padding:35px;
+		max-width: 100% !important;
+	}
 }
 
 
 @media screen and (max-width: 40em) {
 	.description--preview h3 {
-		font-size: 0.5em;
+		font-size: 1em;
 	}
 	/*.description--preview p,
 	.details {
