@@ -12,6 +12,9 @@
 /* #### Mobile Phones Portrait or Landscape #### */
 @media screen and (max-device-width: 640px){
 	
+	.wrapper {
+		height:100%;
+	}
 	.home-title {
 		border-top: 1px solid #6F7275;	
 		padding-top:40px;
@@ -30,10 +33,25 @@
 
 	.page-title {
 		font-size:2em;
+		margin-top:0px;
+		padding-top:20px;
+		border-top: 1px solid #6F7275;	
 	}
 
 	.page-subtitle {
 		font-size: 1.3em;
+	}
+
+
+	.page-menu {
+		margin-bottom: 10px;
+	}
+	.page-menu li {
+		margin :0;
+	}
+
+	.musically a {
+    	color: inherit !important;
 	}
 
 	.socials {

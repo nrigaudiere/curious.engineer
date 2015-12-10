@@ -138,6 +138,10 @@
 	-ms-filter: blur(0px);
 }
 
+.mbtile {
+	margin-bottom: 40px;
+}
+
 /* HOME */
 
 	.home {
