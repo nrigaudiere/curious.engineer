@@ -1,4 +1,0 @@
-Options +MultiViews
-
-RewriteEngine On
-RewriteRule ^index\.html$ musically.curious.engineer [R=301,L]
