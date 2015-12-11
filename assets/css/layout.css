@@ -133,7 +133,7 @@
 	}
 
 	#nav-menu {
-		margin-top:50px;
+		margin-top:30px;
 		height:75vh;
 	}
 
@@ -147,6 +147,7 @@
 	#nav-menu li {
 		list-style-type: none;
 	    margin: 15px 0px 0px 0px;
+	    color:rgb(120, 120, 120)
 	}
 
 	.menu-socials {
