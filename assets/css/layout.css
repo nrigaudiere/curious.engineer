@@ -147,7 +147,10 @@
 	#nav-menu li {
 		list-style-type: none;
 	    margin: 15px 0px 0px 0px;
-	    color:rgb(120, 120, 120)
+	}
+
+	#nav-menu li a {
+		color:rgb(120, 120, 120)
 	}
 
 	.menu-socials {
