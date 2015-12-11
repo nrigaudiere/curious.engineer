@@ -101,14 +101,14 @@
 	}
 
 	.page-title {
-		font-size:2em;
+		font-size:1.9em;
 		margin-top:0px;
 		padding-top:20px;
 		border-top: 1px solid #6F7275;	
 	}
 
 	.page-subtitle {
-		font-size: 1.3em;
+		font-size: 1.1em;
 	}
 
 
@@ -117,10 +117,6 @@
 	}
 	.page-menu li {
 		margin :0;
-	}
-
-	.musically a {
-    	color: inherit !important;
 	}
 
 	.socials {
