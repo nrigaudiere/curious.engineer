@@ -14,6 +14,12 @@
 	
 	.wrapper {
 		height:auto;
+		
+		filter: blur(0px);
+		-webkit-filter: blur(0px);
+		-moz-filter: blur(0px);
+		-o-filter: blur(0px);
+		-ms-filter: blur(0px);
 	}
 	.home-title {
 		border-top: 1px solid #6F7275;	
