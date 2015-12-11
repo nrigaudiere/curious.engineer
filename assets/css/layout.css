@@ -15,11 +15,11 @@
 	.wrapper, .wrapper:hover {
 		height:auto;
 		
-		filter: unset;
-		-webkit-filter: unset;
-		-moz-filter: unset;
-		-o-filter: unset;
-		-ms-filter: unset;
+		filter: blur(0px);
+		-webkit-filter: blur(0px);
+		-moz-filter: blur(0px);
+		-o-filter: blur(0px);
+		-ms-filter: blur(0px);
 	}
 
 	/* Images */
