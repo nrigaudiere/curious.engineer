@@ -26,28 +26,60 @@
 	
 	.index {
 		background: url(../img/sm/index_back_sm.jpg) no-repeat center center fixed;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
 	}
 	.about {
 		background: url(../img/sm/aboutme_back_sm.jpg) no-repeat center center fixed;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
 	}
 	.contact {
 		background: url(../img/sm/contact_back_sm.jpg) no-repeat center center fixed;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
 	}
 	.work {
 		background: url(../img/sm/work_back_sm.jpg) no-repeat center center fixed;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
 	}
 	.musically {
 		background: url(../img/sm/musically_back_sm.jpg) no-repeat center center fixed;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
 	}
 	.electronically {
 		background: url(../img/sm/elec_back_sm.jpg) no-repeat center center fixed;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
 	}
 	.programmingly {
 		background: url(../img/sm/prog_back_sm.jpg) no-repeat center center fixed;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
 	}
 
 	.wrapper {
 		background: url(../img/sm/overlay_sm.png) repeat center center fixed;
+		-webkit-background-size: 125px 125px;
+		-moz-background-size: 125px 125px;
+		-o-background-size: 125px 125px;
+		background-size: 125px 125px;
 	}
 	
 	.home-title {
