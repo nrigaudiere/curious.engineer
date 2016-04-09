@@ -119,15 +119,18 @@
 	background-size: 500px 500px;
 	/*width:100%;*/
 	min-height:100vh;
+/*
 	
 	filter: blur(10px);
 	-webkit-filter: blur(10px);
 	-moz-filter: blur(10px);
 	-o-filter: blur(10px);
 	-ms-filter: blur(10px);
+*/
 	
 	transition: all 0.5s ease;
 }
+/*
 
 .wrapper:hover {
 	filter: blur(0px);
@@ -136,6 +139,7 @@
 	-o-filter: blur(0px);
 	-ms-filter: blur(0px);
 }
+*/
 
 .mbtile {
 	margin-bottom: 40px;
