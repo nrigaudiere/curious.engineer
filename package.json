@@ -1,8 +1,8 @@
 {
-  "name": "rigaudon",
+  "name": "acuriousengineer",
   "private": true,
   "version": "0.0.1",
-  "description": "Stencil App Starter",
+  "description": "A Curious Engineer | IT Engineer + Developer + Audio Maniac",
   "scripts": {
     "build": "stencil build",
     "watch": "stencil build --dev --watch --serve",
@@ -12,7 +12,9 @@
   },
   "devDependencies": {
     "@stencil/core": "^2.0.0",
-    "@stencil/router": "^1.0.1"
+    "@stencil/router": "^1.0.1",
+    "@stencil/sass": "^1.4.1",
+    "tslint": "^6.1.3"
   },
   "license": "MIT"
 }
